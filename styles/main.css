@@ -1,0 +1,54 @@
+/* SOBRE NÓS */
+
+.sobre-nos {
+    padding: 96px 325px 140px;
+}
+
+.sobre-nos-subtitulo {
+    color: var(--vermelho-bordo);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.sobre-nos-titulo {
+    color: var(--azul-escuro);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sobre-nos-paragrafo {
+    color: var(--cinza-claro);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+/* MÉTRICAS */
+
+.metricas {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 96px;
+}
+
+.metricas-num {
+    color: var(--vermelho-bordo);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.metricas-subtitulo {
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.metricas-paragrafo {
+    color: var(--cinza-claro);
+}
