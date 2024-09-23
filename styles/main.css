@@ -1,54 +1,93 @@
-/* SOBRE NÓS */
+/* SEÇÃO SOBRE NÓS */
 
 .sobre-nos {
-    padding: 96px 325px 140px;
+    padding: 9.6rem 32.5rem 14rem;
 }
 
 .sobre-nos-subtitulo {
     color: var(--vermelho-bordo);
     text-align: center;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
 }
 
 .sobre-nos-titulo {
     color: var(--azul-escuro);
     text-align: center;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 600;
 }
 
 .sobre-nos-paragrafo {
     color: var(--cinza-claro);
     text-align: center;
-    font-size: 20px;
-    margin-top: 24px;
+    font-size: 2rem;
+    margin-top: 2.4rem;
 }
 
-/* MÉTRICAS */
+/* SEÇÃO MÉTRICAS */
 
 .metricas {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: center;
     gap: 2%;
-    padding-bottom: 96px;
+    padding-bottom: 9.6rem;
 }
 
 .metricas-num {
     color: var(--vermelho-bordo);
-    font-size: 60px;
+    font-size: 6.0rem;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
 }
 
 .metricas-subtitulo {
     color: var(--azul-escuro);
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
-    margin-bottom: 8px;
+    margin-bottom: .8rem;
 }
 
 .metricas-paragrafo {
     color: var(--cinza-claro);
+    font-size: 1.6rem;
+}
+
+/* SEÇÃO VAGAS ABERTAS */
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 9.6rem 0 6.4rem;
+}
+
+.vagas-descricao {
+    width: 12.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--vermelho-bordo);
+    padding: .4rem 1.2rem;
+    background-color: #8e242415;
+    border-radius: 1.6rem;
+}
+
+.vagas-titulo {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    margin: 2rem 0;
+}
+
+.vagas-subtitulo {
+    font-size: 2rem;
+    color: var(--cinza-claro);
+    font-weight: 400;
+}
+
+.vagas-imagem {
+    width: 100%;
+    padding: 6.4rem 10rem;
 }
