@@ -57,14 +57,14 @@
 
 /* SEÇÃO VAGAS ABERTAS */
 
-.vagas {
+.vagas-abertas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 9.6rem 0 6.4rem;
+    margin-top: 9.6rem ;
 }
 
-.vagas-descricao {
+.vagas-abertas-descricao {
     width: 12.5rem;
     font-size: 1.4rem;
     font-weight: 500;
@@ -74,20 +74,59 @@
     border-radius: 1.6rem;
 }
 
-.vagas-titulo {
+.vagas-abertas-titulo {
     font-size: 3.6rem;
     font-weight: 600;
     color: var(--azul-escuro);
     margin: 2rem 0;
 }
 
-.vagas-subtitulo {
+.vagas-abertas-subtitulo {
     font-size: 2rem;
     color: var(--cinza-claro);
     font-weight: 400;
 }
 
-.vagas-imagem {
+.vagas-abertas-imagem {
     width: 100%;
-    padding: 6.4rem 10rem;
+    padding: 6.4rem 10rem 0;
+}
+
+/* VAGAS DISPONÍVEIS */
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 76.8rem;
+}
+
+.vagas-titulo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--azul-escuro);
+    margin: 6.4rem 0 3.2rem;
+}
+
+.vagas-profissao {
+    border: .1rem solid #EAECF0;
+    border-radius: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.profissao-titulo {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--azul-escuro);
+    margin: 2.4rem 0 3.2rem 2.4rem;
+}
+
+.profissao-informacoes {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--cinza-claro);
+    gap: 2rem;
+    margin: 0 48.1rem 2.8rem 2.4rem;
 }
