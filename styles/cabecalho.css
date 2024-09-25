@@ -32,6 +32,10 @@
     font-size: 1.6rem;
 }
 
+.cabecalho-nav-link:hover {
+    color: var(--vermelho-bordo);
+}
+
 .cabecalho-botao {
     font-family: var(--fonte-principal);
     font-size: 1.6rem;
